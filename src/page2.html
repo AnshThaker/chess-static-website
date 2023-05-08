@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <title>Chess | Gameplay</title>
+</head>
+
+<body>
+
+  <nav class="topnav">
+    <a href="./page1.html">Introduction</a>
+    <a class="active" href="#">Gameplay</a>
+    <a href="./page3.html">Rankings</a>
+    <a href="./bib.html">Bibliography</a>
+  </nav> 
+
+  <header>
+    <div class="logo-title">
+      <img src="images/logo.webp" alt="logo" class="logo">
+      <h1 class="heading">Chess</h1>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="main-content">
+
+      <section class="special-moves">
+        <h2>Special Moves</h2>
+        <h3>Pawn's Special Moves</h3>
+        <p>
+          The pawn has two special moves: <i><b>En Passant</b></i> and <i><b>Promotion</b></i>
+        </p>
+        <section class="pawn-promotion" id="pawn-promotion">
+          <h4>Promotion</h4>
+          <img src="images/boards/pawn-promotion.png" alt="Pawn Promotion" width="250">
+          <img src="images/boards/pawn-promotion.gif" alt="Pawn Promotion GIF" width="250" class="gifs">
+          <p>
+            A pawn that reaches all the way to the opposite side of the chess board can be promoted to another piece of choice, such as queen, rook, bishop, or knight.
+            This is called <u>promotion</u>.
+            The Queen is the most popular choice for promotion.
+            The choice of promotion is not limited to capture pieces: players can have 10 queens on the board!
+          </p>
+        </section>
+        <section class="pawn-en-passant">
+          <h4>En Passant</h4>
+          <img src="images/boards/pawn-en-passant.png" alt="Pawn En Passant" width="250">
+          <img src="images/boards/pawn-en-passant.gif" alt="Pawn En Passant GIF" width="250" class="gifs">
+          <p>
+            An unusual special move is the 'en passant' capture. This takes place when a pawn uses its initial move option to advance two squares instead of one, and when doing so passes over a square that is threatened by an enemy pawn.
+            That enemy pawn, then has the option of capture the moving pawn as if it had only move one square.
+            Then the enemy pawn moves to the empty square that the captured pawn had passed over.
+            This is called <u>En Passant</u>.
+          </p>
+        </section>
+
+        <h3>King's and Rook's Special Move</h3>
+        <section class="castling" id="castling">
+          <h4>Castling</h4>
+          <img src="images/boards/king-castling.webp" alt="Castling" width="250">
+          <img src="images/boards/king-castling.gif" alt="Castling" width="250" class="gifs">
+          <p>
+            With the Rook, the King can make a special move called <u>castling</u>.
+            In castling, the king moves two squares towards one of its rooks and then the rook is placed on the other side of the king.
+            Castling consists of moving the king two squares on its first row toward either one of its rooks, then moving the rook onto the square over which the king crossed.
+            In order to castle, the following conditions must be met:
+          </p>
+          <ul>
+            <li>The King cannot be in check nor pass through check.</li>
+            <li>Neither the king nor the rook must have moved previously.</li>
+            <li>There cannot be any pieces in between the king and the rook.</li>
+          </ul>
+        </section>
+
+      </section>
+
+      <section class="ways-of-ending">
+        <h2>Ways a Chess Game Can End</h2>
+        <h3>Win/Lose</h3>
+        <p>A game can be won or lost in the following ways:</p>
+        <h4>Checkmate</h4>
+        <a href="./page1.html#check-and-checkmate"><img src="images/boards/checkmate.gif" alt="Checkmate GIF" width="250"></a>
+        <p>
+          <a href="./page1.html#check-and-checkmate">Checkmate</a> occurs when the king is in check and the player has no legal move.
+          Click the GIF above to learn more about checkmate.
+        </p>
+        <h4>Resignation</h4>
+        <p>
+          Resignation occurs when a player resigns, perhaps because they are in a hopeless position.
+        </p>
+        <h4>Win On Time</h4>
+        <p>
+          In games with a time limit, a win on time occurs if the opponent runs out of time, regardless of who is winning.
+        </p>
+        <h3>Draw</h3>
+        <p>There are multiple ways where a game can result in a draw:</p>
+        <h4>Stalemate</h4>
+        <img src="images/boards/stalemate.gif" alt="Stalemate GIF" width="250">
+        <p>
+          If the player to move has no legal move, but is not in check, a stalemate has been achieved.
+        </p>
+        <h4>Insufficient Material/Dead Position</h4>
+        <img src="images/boards/dead-pos.png" alt="Dead Position" width="250">
+        <p>
+          If neither player is able to checkmate the other player just move using a legal move, the game is drawn.
+          This state of the game is called a <u>Dead Position</u> or <u>Insufficient Material</u>.
+        </p>
+        <h4>Draw by Agreement</h4>
+        <p>
+          This is a type of draw where there is a mutual agreement between the players to draw.
+        </p>
+        <h4>Threefold Repetition</h4>
+        <img src="images/boards/repetition.gif" alt="Repetition GIF" width="250">
+        <p>
+          This type of draw occurs when neither player is able to avoid repetitive moves or are constantly making repeating moves.
+        </p>
+        <h4>Fifty-move rule</h4>
+        <p>
+          If during the previous 50 moves no pawn has been moved and no capture has been made, it's a draw.
+        </p>
+      </section>
+
+      <section class="notation">
+        <h2>Notation</h2>
+        <p>
+          There is a notation to record chess moves. The system of notation used today is the <u>short-form algebraic notation</u>.
+          Each square is indentified with a set of coordinates, a-h for the columns followed by 1-8 for the rows.
+          <br>
+          <br>
+          The format is:
+          <br>
+          <br>
+          <i>initial of the piece moved - column of destination square - row of destination square</i>
+          <br>
+        </p>
+          <h3>Initials of Pieces</h3>
+          <table style="width:25%">
+            <tr>
+              <th>Piece</th>
+              <th>Initial</th>
+            </tr>
+            <tr>
+              <td>King</td>
+              <td>K</td>
+            </tr>
+            <tr>
+              <td>Queen</td>
+              <td>Q</td>
+            </tr>
+            <tr>
+              <td>Rook</td>
+              <td>R</td>
+            </tr>
+            <tr>
+              <td>Bishop</td>
+              <td>B</td>
+            </tr>
+            <tr>
+              <td>Knight</td>
+              <td>N</td>
+            </tr>
+            <tr>
+              <td>Pawn</td>
+              <td>None</td>
+            </tr>
+          </table>
+          <h3>Examples</h3>
+          <ul>
+            <li>Qg5 - Queen moves to the g-column, 5th row.</li>
+            <li>Ngf3 - Knight moves from the g-column, to the square f3.</li>
+            <li>R1e2 - Rook on the first row moves to square e2.</li>
+            <li>e4 - Pawn moves to the square e4.</li>
+            <li>Bxf3 - Bishop captures on square f3.</li>
+            <li>exd5 - Pawn on the e-column captures a piece on square d5.</li>
+            <li>e1=Q - Pawn promotes to a Queen.</li>
+            <li>O-O - Castling to kingside.</li>
+            <li>Qxf7# - Queen delivers checkmate by capturing on f7.</li>
+          </ul>
+      </section>
+
+      <section class="basic-openings">
+        <h2>Basic Openings</h2>
+        <p>
+          A <u>chess opening</u> is the initial stage of a game.
+          Almost all openings have standard names, such as the "King's Pawn Opening".
+          There are 1,327 named openings and variants.
+        </p>
+        <h3>Common Chess Openings</h3>
+        <h4>King's Pawn Opening</h4>
+        <img src="images/boards/kings-pawn-opening.webp" alt="King's Pawn Opening" width="250">
+        <p>
+          With this opening, white immediately takes control of the center and opens lines of development for its pieces.
+          The King's Pawn opening has been an all-time favourite opening for most players.
+        </p>
+        <h4>Ruy Lopez</h4>
+        <img src="images/boards/ruy-lopez-opening.webp" alt="Ruy Lopez Opening" width="250">
+        <p>
+          The Ruy Lopez, also known as the Spanish game is named after Ruy Lopez de Segura.
+          Nearly 500 years later, the Ruy Lopez opening still remains as one of the most popular chess openings.
+        </p>
+        <h4>Sicilian Defense</h4>
+        <img src="images/boards/sicilian-defense-opening.webp" alt="Sicilian Defense" width="250">
+        <p>
+          The Sicilian Defense is black's most popular response to the King's Pawn opening.
+          By playing this opening, black immediately fights for the center and attacks d4 while avoding the symmetry of e5.
+        </p>
+        <h4>Caro-Kann Defense</h4>
+        <img src="images/boards/caro-kann-defense.webp" alt="Caro-Kann Defense" width="250">
+        <p>
+          The Caro-Kann Defense prepares d5 on black's second moved to challenge white's e4 pawn.
+        </p>
+        <h4>Queen's Gambit</h4>
+        <img src="images/boards/queens-gambit.webp" alt="Queen's Gambit" width="250">
+        <p>
+          The Queen's Gambit, marked by the moves 1. d4, d5 and 2. c4 is one of the oldest chess openings.
+          This approach offers a free pawn.
+        </p>
+        <h4>Reti Opening</h4>
+        <img src="images/boards/reti-opening.webp" alt="Reti Opening" width="250">
+        <p>
+          The Reti Opening is named after the chess master Richard Reti.
+          This opening leads to closed positions.
+        </p>
+        <h4>Englund Gambit</h4>
+        <img src="images/boards/englund-gambit.webp" alt="Englund Gambit" width="250">
+        <p>
+          This is a pawn sacrifice for black, but black can hope to win the game by tricking white to capture their sacrificed pawn.
+        </p>
+        <h2>Englund Gambit Example</h2>
+        <p>
+          Here's an example of how black can win the game in ONLY 8 MOVES! (by playing the Englund Gambit).
+        </p>
+        <video width="430" height="430" controls>
+          <source src="videos/englund-gambit.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </section>
+      
+      <div class="nav-links">
+        <div class="left-link-container">
+          <a href="./page1.html" class="page-nav-link">&#x2190; Previous Page</a>
+        </div>
+        <div class="right-link-container">
+          <a href="./page3.html" class="page-nav-link">Next Page &#8594;</a>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+</body>
+</html>

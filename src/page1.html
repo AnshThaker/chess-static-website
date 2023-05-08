@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <title>Chess | Introduction</title>
+</head>
+
+<body>
+
+  <nav class="topnav">
+    <a class="active" href="#">Introduction</a>
+    <a href="./page2.html">Gameplay</a>
+    <a href="./page3.html">Rankings</a>
+    <a href="./bib.html">Bibliography</a>
+  </nav> 
+
+  <header>
+    <div class="logo-title">
+      <img src="images/logo.webp" alt="logo" class="logo">
+      <h1 class="heading">Chess</h1>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="main-content">
+
+      <section class="chess-intro">
+        <h2>What is chess?</h2>
+        <p>
+          <strong>Chess</strong> is a strategy game played between two players on a checkered board with 64 squares, arranged in a eight-by-eight square, also known as the chess board.
+          Each player's piece is either black or white.
+          White moves first, after which the players take alternate turns in accordance with fixed rules. The object of the game is to <a href="#check-and-checkmate">checkmate</a> the opponent's king, whereby the king is under immediate attack (in "<a href="#check-and-checkmate">check</a>") and there is no way to remove it from attack on the next move.
+        </p>
+      </section>
+
+      <section class="pieces-intro">
+
+        <section class="chess-set">
+          <h2>Pieces</h2>
+          <h3>Chess Set</h3>
+          <p>Diagram showing the initial position of a chess game:</p>
+          <img src="images/boards/inital-pos.png" alt="Inital Position of a Chess Game" width="250">
+          <img src="images/boards/inital-pos.gif" alt="Inital Position of a Chess Game GIF" width="250" class="gifs">
+          <p>
+            There are 32 pieces in a normal chess set, half for white and half for black.
+            Each colour has six kinds of pieces in chess: the <a href="#king">king</a>, the <a href="#queen">queen</a>, the <a href="#rook">rook</a>, the <a href="#bishop">bishop</a>, the <a href="#knight">knight</a>, and the <a href="#pawn">pawn</a>.
+          </p>
+        </section>
+
+        <section class="pawn" id="pawn">
+          <h3>Pawn</h3>
+          <img src="images/pieces/pawn.webp" alt="Image of a Pawn">
+          <p>
+            The pawn is aruguably the least powerful piece in chess, however, it can <a href="./page2.html#pawn-promotion">promote</a> to any other piece (except the king) when advanced all the way to the opposite side of the board.
+          </p>
+          <h4>Setup</h4>
+          <img src="images/boards/pawn-pos.png" alt="Setup of Pawns" width="250">
+          <p>
+            The eight pawns are set on rows two (for white) and seven (for black).
+          </p>
+          <h4>Movement</h4>
+          <img src="images/boards/pawn-moves.png" alt="Moves of Pawns" width="250">
+          <img src="images/boards/pawn-moves.gif" alt="Moves of Pawns GIF" width="250" class="gifs">
+          <p>
+            Unlike all the pieces, the pawns are unable to move backwards.
+            Normally, pawns moves a single square forward, but the first time a pawn is moved from its starting position, it has the choice of moving two squares.
+            If a pawn wants to capture a piece, it can only do so by diagonally moving one square, any pieces in front will simply block them from advancing any further.
+          </p>
+        </section>
+
+        <section class="bishop" id="bishop">
+          <h3>Bishop</h3>
+          <img src="images/pieces/bishop.webp" alt="Image of a Bishop">
+          <h4>Setup</h4>
+          <img src="images/boards/bishop-pos.png" alt="Setup of Bishops" width="250">
+          <p>
+            The Bishop is placed on the third column and sixth column of the first (for white) and eighth (for black) row.
+          </p>
+          <h4>Movement</h4>
+          <img src="images/boards/bishop-moves.png" alt="Moves of Bishops" width="250">
+          <img src="images/boards/bishop-moves.gif" alt="Moves of Bishops GIF" width="250" class="gifs">
+          <p>
+            The bishop has no restrictions for the distance of each move, but is limited to diagonal movement. Bishops are unable to jump over pieces.
+            Bishops capture pieces by occupying the square on which an enemy piece is.
+          </p>
+        </section>
+
+        <section class="knight" id="knight">
+          <h3>Knight</h3>
+          <img src="images/pieces/knight.webp" alt="Image of a Knight">
+          <h4>Setup</h4>
+          <img src="images/boards/knight-pos.png" alt="Setup of Knights" width="250">
+          <p>
+            Knights are placed on the first (for white) and eighth (for black) row, on the second and seventh column.
+          </p>
+          <h4>Movement</h4>
+          <img src="images/boards/knight-moves.png" alt="Moves of Knights" width="250">
+          <img src="images/boards/knight-moves.gif" alt="Moves of Knights GIF" width="250" class="gifs">
+          <p>
+            The Knight has the most unusual moves. When it moves, it can move two squares horizontally (or vertically) and one square vertically (or horizontally).
+            Therefore, the complete move looks like an 'L'.
+            Unlike all other pieces, the knight has an ability of jumping over other pieces of any colour.
+            It captures by moving in the square on which an enemy piece is.
+          </p>
+        </section>
+
+        <section class="rook" id="rook">
+          <h3>Rook</h3>
+          <img src="images/pieces/rook.webp" alt="Image of a Rook">
+          <h4>Setup</h4>
+          <img src="images/boards/rook-pos.png" alt="Setup of Rooks" width="250">
+          <p>
+            Rooks are set on the first (for white) and eighth (for black) row, on the first and eight column.
+          </p>
+          <h4>Movement</h4>
+          <img src="images/boards/rook-moves.png" alt="Moves of Rooks" width="250">
+          <img src="images/boards/rook-moves.gif" alt="Moves of Rooks GIF" width="250" class="gifs">
+          <p>
+            The rooks moves horizontally or vertically either forward or backward for any number of squares.
+            Like other pieces, it captures by moving in the square on which an enemy piece is.
+            The rook also participates, along with the king, in a special move called <a href="./page2.html#castling">castling</a>.
+          </p>
+        </section>
+
+        <section class="queen" id="queen">
+          <h3>Queen</h3>
+          <img src="images/pieces/queen.webp" alt="Image of a Queen">
+          <h4>Setup</h4>
+          <img src="images/boards/queen-pos.png" alt="Setup of Queens" width="250">
+          <p>
+            The Queens are placed on the first (for white) and eighth (for black) row and on the fourth column.
+          </p>
+          <h4>Movement</h4>
+          <img src="images/boards/queen-moves.jpg" alt="Moves of Queens" width="250">
+          <img src="images/boards/queen-moves.gif" alt="Moves of Queens GIF" width="250" class="gifs">
+          <p>
+            The Queen is said to be the most powerful piece because it can be moved any number of unoccupied squares in a straight line vertically, horizontally, and even diagonally.
+            Thus, the Queen is like a combination of a rook and bishop.
+            However, it cannot jump over a piece like the Knight.
+            It captures a piece by moving in the square on which an enemy piece is.
+          </p>
+        </section>
+
+        <section class="king" id="king">
+          <h3>King</h3>
+          <img src="images/pieces/king.webp" alt="Image of a King">
+          <h4>Setup</h4>
+          <img src="images/boards/king-pos.png" alt="Setup of Kings" width="250">
+          <p>
+            The Kings are placed on the first (for white) and eighth (for black) row and on the fifth column.
+          </p>
+          <h4>Movement</h4>
+          <img src="images/boards/king-moves.png" alt="Moves of Kings" width="250">
+          <img src="images/boards/king-moves.gif" alt="Moves of Kings GIF" width="250" class="gifs">
+          <p>
+            The King is the most important but vulnerable piece in the game of Chess.
+            It can move one square in any direction.
+            It captures by moving onto a square occupied by an enemy piece.
+          </p>
+        </section>
+
+      </section>
+
+      <section class="check-and-checkmate" id="check-and-checkmate">
+        <h2>Check and Checkmate</h2>
+        <p>
+          A check is a direct threat to capture the king.
+          A king threatened by another piece to said to be in 'check'. In the following move, the player whose king is in check must get the king out of check, if it's possible.
+          However, if the king is in check and no legal moves are possible to get out of check, the king is said to be 'checkmated' and the game is over.
+          The play whose king gets checkmated loses and the opposing player wins.
+        </p>
+      </section>
+
+      <section class="material-values">
+        <h2>Material Values</h2>
+        <p>
+          Deciding who is "winning" or "losing" in chess cannot be left to the number of pieces on the board.
+          Each piece has a distinct value, measured in <i>centipawns</i>.
+          It is worthy to note that calculations of the value of the pieces provide only a rough idea of the state of the game.
+          The exact piece values will vary between situations. In some games, even people with more material values get checkmated.
+          These are the usual values of pieces:
+        </p>
+        <table style="width:25%">
+          <tr>
+            <th>Piece</th>
+            <th>Value</th>
+          </tr>
+          <tr>
+            <td>King</td>
+            <td>None</td>
+          </tr>
+          <tr>
+            <td>Queen</td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td>Rook</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>Bishop</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Knight</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Pawn</td>
+            <td>1</td>
+          </tr>
+        </table>
+      </section>
+
+      <section class="history">
+        <h2>History</h2>
+        <img src="images/other/chaturanga.jpeg" alt="Chatarunga" width="500">
+        <p>
+          Chess originated in Ancient India about 1,400 years ago, as this was the earliest finding of chess pieces.
+          "Chaturanga" was the name of the ancient chess game that the people of Ancient India played.
+          When Buddhists came as missionaries to India, they took the game with them and Chatarunga continued to move through other countries, sometimes having its name changed.
+          When the game became widespread in Persia, it was named "chatrang". When the Arabs conquered Persia, they renamed the game to "Shatrang".
+          The game then became widspread across Western Europe. During the European age of shatrang, its rules were changed: the queen and bishop was added, and the rule of promotion was also added to enhance the excitement of the game.
+          This game then become very popular across the globe.
+        </p>
+      </section>
+
+      <section class="game-example">
+        <h2>Chess Game Example</h2>
+        <p>
+          Now that you know the rules of chess, here is a video of a simple chess game.
+        </p>
+        <video width="430" height="430" controls>
+          <source src="videos/chess-game-example.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </section>
+
+      <div class="right-link-container">
+        <a href="./page2.html" class="page-nav-link">Next Page &#8594;</a>
+      </div>
+
+    </section>
+
+  </main>
+
+</body>
+</html>

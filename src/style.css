@@ -1,0 +1,146 @@
+@font-face {
+  font-family: Rubik;
+  src: url('fonts/Rubik-Regular.ttf');
+}
+
+.topnav {
+  background-color: #622F1B;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #814E36;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #1B622F;
+  color: white;
+}
+
+body {
+  background-color: #ffce9e;
+  background-image: url("images/texture.png");
+  background-repeat: repeat;
+  background-size: contain;
+  font-family: Rubik;
+  margin: 0;
+  padding: 0;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 60px;
+  margin-right: 10px;
+}
+
+header {
+  margin-top: 20px;
+}
+
+.heading {
+  font-size: 48px;
+  margin-top: 0;
+}
+
+.main-content {
+  background-color: #654321;
+  margin: 50px;
+  min-height: 100vh;
+  border-radius: 10px;
+  color: white;
+  padding: 20px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.gifs {
+  margin-left: 10px;
+}
+
+h2 {
+  text-decoration: underline;
+  text-decoration-style: double;
+}
+
+h3 {
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+
+h4 {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+
+.nav-links {
+  margin-top: 10px;
+}
+
+.left-link-container {
+  display: flex;
+  justify-content: left;
+  float: left;
+}
+
+.three-left-link-container {
+  display: flex;
+  justify-content: left;
+}
+
+.right-link-container {
+  display: flex;
+  justify-content: right;
+}
+
+.page-nav-link {
+  border-radius: 10px;
+  background-color: #F5DEB3;
+  color: #3B2F2F;
+  padding: 12px;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  vertical-align: middle;
+  font-size: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  opacity: 1;
+  display: inline-block;
+  border: 0px none;
+}
+
+a {
+  color: #d18b47;
+}
+
+th, td {
+  background-color: #d18b47;
+  border-radius: 2.5px;
+  text-align: center;
+}
+
+video {
+  border-radius: 10px;
+}
